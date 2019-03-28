@@ -1,0 +1,20 @@
+.myinfo {
+  height: 170px;
+  width: 100%;
+  background-color: #797878;
+}
+.myinfo .myinfo-left div {
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+.myinfo .myinfo-right div:first-child {
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+.myinfo .myinfo-right a {
+  color: white;
+  font-size: 40px;
+  margin: 6px;
+}
