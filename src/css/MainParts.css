@@ -1,0 +1,26 @@
+body {
+  padding-top: 50px;
+  background: #5e5e5e;
+}
+#mainPart .Home {
+  text-align: center;
+  box-shadow: darkgrey 5px;
+  border-bottom: solid #5e5e5e 1px;
+  padding: 200px 15px;
+  background-color: #b8b7b7;
+}
+#mainPart .About {
+  text-align: center;
+  box-shadow: darkgrey 5px;
+  border-bottom: solid #5e5e5e 1px;
+  padding: 200px 15px;
+  background-color: #e0dede;
+}
+#mainPart .Contact {
+  text-align: center;
+  box-shadow: darkgrey 5px;
+  border-bottom: solid #5e5e5e 1px;
+  padding: 500px 15px;
+  background-color: #e0dede;
+  position: relative;
+}
