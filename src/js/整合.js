@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import { Game } from './贪吃蛇/游戏对象';
 
-let all = function () {
+$(function () {
 
     //点击跳转
     (function () {
@@ -53,6 +53,4 @@ let all = function () {
         }
     })()
 
-};
-
-export { all };
+});
