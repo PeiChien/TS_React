@@ -8,8 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 //导入js动画文件
-import './js/点击跳转';//采用Jquery实现
-import './js/贪吃蛇/难度选择';
+//import './js/点击跳转';//采用Jquery实现
+//import './js/贪吃蛇/难度选择';
+import $ from 'jquery';
+import {all} from './js/整合';
+$(all);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

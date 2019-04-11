@@ -57,10 +57,11 @@ class Snake {
             case "bottom":
                 this.body[0].y += 1;
                 break;
+            default:
         }
         var headX = this.body[0].x * this.width;
         var headY = this.body[0].y * this.width;
-        if (headX == food.x && headY == food.y) {
+        if (headX === food.x && headY === food.y) {
             let last = this.body[this.body.length - 1];
             this.body.push({
                 x: last.x,
